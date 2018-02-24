@@ -1,0 +1,80 @@
+body {
+    background: url("../images/pink_rice.png");
+}
+
+.navbar-brand {
+    font-size: 50px; 
+    margin-top:20px; 
+    margin-bottom:20px; 
+    font-family: 'Oswald', sans-serif;
+    color: black; 
+}
+
+#navbarlink {
+    font-family: 'Oswald', sans-serif; 
+    font-size: 28px; 
+    margin-top: 20px; 
+    margin-bottom: 20px;
+    margin-right: 20px; 
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+}
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+}
+
+footer {
+    font-family: 'Oswald', sans-serif;
+}
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 980px) {
+
+    .navbar header {
+      max-width: 960px;
+    }
+    .maincontainer {
+      margin: 0 15px;
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+  
+    .header {
+      width: 100%;
+    }
+    #aboutme {
+      width: 100%;
+      float: none;
+      max-width: none;
+    }
+    #connectWithMeContainer {
+      width: 100%;
+      float: none;
+      max-width: none;
+    }
+    .sociallinks {
+      width: 40%;
+      min-width: 218px;
+    }
+  }
+  
+  @media only screen and (max-width: 640px) {
+  
+    .header {
+      display: block;
+    }
+    .name{
+      width: 100%;
+    }
+    }
+    #profilepicture{
+      float: none;
+      margin: 0 auto 15px auto;
+      position: unset;
+      width: 100%;
+    }
