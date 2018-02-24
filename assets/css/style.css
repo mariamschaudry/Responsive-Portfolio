@@ -52,14 +52,9 @@ footer {
       float: none;
       max-width: none;
     }
-    #connectWithMeContainer {
-      width: 100%;
-      float: none;
-      max-width: none;
-    }
     .sociallinks {
       width: 40%;
-      min-width: 218px;
+      min-width: 220px;
     }
   }
   
